@@ -3,11 +3,12 @@ package ms1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 import ms1.repository.RoomRepository;
 
 @SpringBootApplication
-public class ServiceRoomApplication {
+public class ServiceRoomApplication extends SpringBootServletInitializer {
 //extends SpringBootServletInitializer
 //	implements ApplicationRunner
 	
